@@ -14,10 +14,10 @@ var customerData = {
 };
 
 function greetCustomer(firstName) {
-  // your code here
+
   if (customerData[firstName] === undefined)
   {
-      return "Welcome! Is this your first time?"
+      return "Welcome! Is this your first time?";
   }
   switch (customerData[firstName]['visits'])
   {
